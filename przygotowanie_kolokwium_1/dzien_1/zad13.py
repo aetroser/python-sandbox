@@ -8,3 +8,23 @@ Przydatne: random.Random(seed), randint(), choice(), copy(), shuffle(); filtrowa
 """
 
 # Tutaj napisz swoje rozwiązanie.
+
+import random
+
+ADDRESSES = ["a@gmail.com", "b@interia.com", "c@gmail.com"]
+
+def experiment(seed, n):
+    rng = random.Random(seed)
+    numbers = [rng.randint(0, 10) for _ in range(n)]
+    gmail = []
+    for addr in ADDRESSES:
+        if addr.endswith("@gmail.com"):
+            gmail.append(addr)
+    address = rng.choice(gmail)
+    copy = ADDRESSES.copy()
+    rng.shuffle(copy)
+
+    return (numbers, address, copy)
+
+x, y = map(int, input().split())
+print(experiment(x, y))

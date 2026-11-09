@@ -7,4 +7,9 @@ Wynik: 12
 Przydatne: import narzedzia11 / from narzedzia11 import is_even; if __name__ == "__main__":.
 """
 
-# Tutaj napisz swoje rozwiązanie.
+# Tutaj napisz swoje rozwiązanie.\
+from przygotowanie_kolokwium_1.narzedzia.narzedzia11 import *
+
+a, b = map(int, input().split())
+print(sum_even(a, b))
+
