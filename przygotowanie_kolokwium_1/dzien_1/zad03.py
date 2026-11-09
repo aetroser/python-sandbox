@@ -8,3 +8,21 @@ Przydatne: int(input()), if, n % 2, licznik += 1, suma += n.
 """
 
 # Tutaj napisz swoje rozwiązanie.
+
+liczba_nieparzystych = 0
+suma_nieparzystych = 0
+
+while True:
+    liczba = int(input())
+
+    if liczba == 0:
+        break
+
+    if liczba < 0:
+        continue
+
+    if liczba % 2:
+        liczba_nieparzystych += 1
+        suma_nieparzystych += liczba
+
+print(liczba_nieparzystych, suma_nieparzystych)

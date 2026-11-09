@@ -8,3 +8,10 @@ Przydatne: float(input()), type(x).__name__, print(f'{x:.2f}').
 """
 
 # Tutaj napisz swoje rozwiązanie.
+x = float(input("Podaj pierwszą liczbę rzeczywistą: "))
+y = float(input("Podaj drugą liczbę rzeczywistą: "))
+
+print(f"{x+y:.2f}")
+print(f"{x-y:.2f}")
+print(f"{x*y:.2f}")
+print(type(x+y).__name__)
