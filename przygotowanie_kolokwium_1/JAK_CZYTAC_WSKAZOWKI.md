@@ -1,6 +1,6 @@
 # Jak korzystać ze wskazówek do zadań
 
-Każdy z 65 plików z zadaniami — również w próbnych kolokwiach — ma teraz na górze sekcję **„Narzędzia i składnia do tego zadania”**. Zawiera konkretne operacje oraz krótkie przykłady ich zapisu. Nie musisz znać ich wszystkich przed rozpoczęciem ćwiczeń.
+Każdy z 65 plików z zadaniami ma tylko 6 wierszy opisu: temat/lab, polecenie, wymaganie dotyczące własnych funkcji, wejście, wynik i przydatne narzędzia. Znak `/` w przykładzie oznacza następny wiersz. Poniższe wyjaśnienia są opcjonalną pomocą, poza plikami z zadaniami. Szczegółowe wcześniejsze opisy są w plikach `POMOC.md` przy poszczególnych dniach i arkuszach.
 
 ## Co znaczy „bez funkcji”
 
@@ -14,7 +14,7 @@ W tych opisach **„bez własnych funkcji” oznacza bez pisania `def`**. Nadal 
 | Własna funkcja | `def nazwa(argument):` | Samodzielnie definiujesz obliczenia, do których potem wracasz przez wywołanie. |
 | Konstrukcja języka | `if`, `for`, `while` | Steruje wykonaniem programu; to nie są funkcje. |
 
-Jeżeli zadanie wymaga własnej funkcji, jest to zaznaczone w sekcji **„Własne funkcje (def)”**. Możesz najpierw przećwiczyć rachunek bez niej, ale końcową wersję zrób zgodnie z wymaganiem. Jeżeli funkcja jest opcjonalna, możesz napisać program bezpośrednio pod opisem zadania.
+Jeżeli zadanie wymaga własnej funkcji, jest to zaznaczone w trzecim wierszu opisu. Możesz najpierw przećwiczyć rachunek bez niej, ale końcową wersję zrób zgodnie z wymaganiem. Jeżeli funkcja jest opcjonalna, możesz napisać program bezpośrednio pod opisem zadania.
 
 Krótki przykład własnej funkcji, niezwiązany z rozwiązaniem zadań:
 
@@ -65,6 +65,6 @@ Przykłady w opisach są tekstem wewnątrz docstringa, czyli wielowierszowego op
 
 ## Wskazówki a próbne kolokwium
 
-W trybie nauki korzystaj ze wskazówek również w arkuszach A–D. Przy kolejnej próbie na czas możesz pominąć sekcję narzędzi i oprzeć się tylko na samym poleceniu oraz dozwolonej dokumentacji. Zasady wejścia, wyjścia i oceniania pozostają opisane w arkuszu.
+W trybie nauki korzystaj ze wskazówek również w arkuszach A–D. Przy kolejnej próbie na czas możesz pominąć wiersz „Przydatne” i oprzeć się tylko na samym poleceniu oraz dozwolonej dokumentacji. Zasady wejścia, wyjścia i oceniania pozostają opisane w arkuszu.
 
 Źródła składni: [oficjalny tutorial — wejście i wyjście](https://docs.python.org/3/tutorial/inputoutput.html), [funkcje i sterowanie](https://docs.python.org/3/tutorial/controlflow.html), [typy wbudowane](https://docs.python.org/3/library/stdtypes.html).

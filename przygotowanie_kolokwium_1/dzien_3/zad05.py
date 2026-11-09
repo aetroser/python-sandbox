@@ -1,49 +1,10 @@
 """
-DZIEŃ 3 — ZADANIE 05: Luty i lata przestępne
-Tematyka: Luty i lata przestępne.
-Źródło: Lab06/zad14.py, zad17.py (ścieżki względem Labs/ w oryginalnym Labs.zip).
-Poziom: podstawa. Orientacyjny czas: 12 min.
-Środowisko: Python 3.10+; wyłącznie biblioteka standardowa.
-Cel: samodzielne rozwiązanie; poniżej nie ma gotowego algorytmu.
-
-NARZĘDZIA I SKŁADNIA DO TEGO ZADANIA
-
-Własne funkcje (def)
-W tym ćwiczeniu zdefiniuj: days_in_february(year). Obliczenia da się również zapisać bez def, ale końcowa wersja ma ćwiczyć wskazane funkcje i zwracać wyniki przez return.
-
-Co wykorzystać
-- import calendar; calendar.isleap(year): True dla roku przestępnego.
-- range(a,b+1): lata z końcową granicą włącznie.
-- % (reszta), ==, and/or: własny warunek podzielności roku.
-- Lista, append() i print(*lista): wypisanie lat; if not lista: BRAK.
-
-Małe przykłady składni — nie są całym rozwiązaniem
-    import calendar
-    print(calendar.isleap(2020))  # True
-    print(2020 % 4)  # 0, czyli rok jest podzielny przez 4
-
-Inny sposób / wariant bez własnych funkcji
-Zgodnie z poleceniem wykonaj najpierw wersję z isleap(), potem wersję bez tej funkcji — zwykłymi warunkami podzielności. Własna days_in_february jest wymagana w końcowej wersji.
-
-Poniższe polecenie określa wymagania. Narzędzia opisane jako opcjonalne
-lub alternatywne są do wyboru; nie musisz używać wszystkich naraz.
-
-POLECENIE
-Wczytaj dwa lata a<=b (1900..2100). Wypisz lata przestępne od a do b albo BRAK; w drugiej linii liczbę dni lutego roku b. Zdefiniuj days_in_february(year). Najpierw wersja z calendar.isleap, potem własny warunek porównany z modułem.
-
-PRZYKŁAD / SPRAWDZENIE RĘCZNE
-1999 2001 -> 2000 / 28.
-
-SPRAWDŹ TAKŻE
-1900 nie jest przestępny; 2000 jest; 2100 nie jest; 2024 jest.
-
-ZASADY
-Liczby rzeczywiste zapisuj z kropką. Nie sprawdzaj błędów danych,
-jeśli polecenie nie wymaga tego wprost. W zadaniach z konsolą czytaj
-bez komunikatów input(), a wypisuj tylko wskazany wynik.
-Gdy polecenie wymaga funkcji, funkcja zwraca wynik; przykładowe
-wywołania umieść pod if __name__ == '__main__':.
-To ćwiczenie sprawdzasz ręcznie; automatyczne testery dotyczą kolokwiów.
+D3.05: Luty i lata przestępne | Lab06
+Wczytaj lata a≤b (1900..2100); wypisz przestępne z [a,b] lub BRAK, potem liczbę dni lutego roku b.
+Wymagana: days_in_february(year); wersja z calendar.isleap, potem własny warunek.
+Wejście/próba: 1999 2001
+Wynik: 2000 / 28
+Przydatne: calendar.isleap(), range(a,b+1), %, and/or, if; bez isleap użyj podzielności przez 4/100/400.
 """
 
 # Tutaj napisz swoje rozwiązanie.

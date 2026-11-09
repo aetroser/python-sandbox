@@ -56,7 +56,7 @@ Liczby zaliczonych testów służą tylko do szukania błędu. Tester nie zamien
 
 ## Wskazówki do nauki
 
-Wszystkie 20 plików z zadaniami ma sekcję narzędzi: składnia, funkcje/metody, małe przykłady i alternatywy. W arkuszach **nie wymaga się własnych funkcji** — można pisać kod bez `def`. Przy pierwszym podejściu możesz korzystać z tych wskazówek jako części nauki; przy próbie odtwarzającej warunki kolokwium pomiń je i przeczytaj samo polecenie. [Jak czytać wskazówki](../JAK_CZYTAC_WSKAZOWKI.md).
+Każde zadanie ma 6 wierszy opisu: temat/lab, polecenie, opcjonalność własnych funkcji, przykład wejścia i wyjścia oraz przydatne narzędzia. `/` w przykładzie oznacza nowy wiersz. Możesz pisać bez `def`. Dłuższe wcześniejsze warunki i wskazówki znajdują się w `POMOC.md` obok arkusza. [Wyjaśnienia składni](../JAK_CZYTAC_WSKAZOWKI.md).
 
 ## Tryb uczciwej próby
 

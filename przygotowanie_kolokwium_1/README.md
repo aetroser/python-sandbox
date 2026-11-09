@@ -23,9 +23,13 @@ Zestaw na podstawie **całego przesłanego `Labs.zip` (Lab02–Lab06)** i podany
 
 W każdym dniu zadania **01–11 to podstawa**, **12–15 to rozszerzenia ★ i zapas**. Jest łącznie 33 ćwiczeń podstawowych, 12 rozszerzeń i 20 zadań w arkuszach. Nie musisz kończyć wszystkich rozszerzeń przed piątkiem. Priorytet: samodzielnie rozwiązać i sprawdzić co najmniej trzy pełne zadania w 75 minut.
 
-## Wskazówki w każdym zadaniu
+## Krótkie opisy zadań
 
-Na górze każdego pliku znajdziesz: informację, czy trzeba pisać własne funkcje `def`; listę przydatnych funkcji, metod i konstrukcji z objaśnieniami; krótkie przykłady składni; warianty alternatywne, w tym rozwiązanie bez własnej funkcji, gdy jest dozwolone. Przykłady pokazują pojedyncze operacje, a cały program nadal piszesz samodzielnie. [Wyjaśnienie od podstaw](JAK_CZYTAC_WSKAZOWKI.md).
+Każdy plik ma 6 wierszy opisu: temat i lab, polecenie, wymagane/opcjonalne własne funkcje, przykład wejścia, wynik oraz przydatne narzędzia. **Znak `/` w przykładach oznacza nowy wiersz**; nie wpisuj go dosłownie. „Wejście/próba” w zadaniu funkcyjnym może oznaczać wywołanie funkcji zamiast danych z klawiatury.
+
+Czytaj bez komunikatów zachęty i wypisuj tylko wskazany wynik. Dane są poprawne; nie dodawaj walidacji, o ile zadanie jej nie wymaga. Python 3.10+, tylko biblioteka standardowa. Wymagane funkcje zwracają wyniki przez `return`; kod próbny możesz umieścić pod `if __name__ == '__main__':`.
+
+Dłuższe wyjaśnienia są [w przewodniku](JAK_CZYTAC_WSKAZOWKI.md), a pełne wcześniejsze warunki i wskazówki — w opcjonalnym `POMOC.md` obok zadań danego dnia lub arkusza.
 
 ## Jak zacząć
 
@@ -45,7 +49,7 @@ Po samodzielnym rozwiązaniu arkusza uruchom:
 python przygotowanie_kolokwium_1/kolokwia/kolokwium_A/sprawdz.py
 ```
 
-Puste szablony **celowo nie przechodzą testów**. Testery są do próbnych kolokwiów; codzienne ćwiczenia mają przykłady i listę sprawdzeń ręcznych.
+Puste szablony **celowo nie przechodzą testów**. Testery są do próbnych kolokwiów; codzienne ćwiczenia mają przykłady, a dodatkowe sprawdzenia znajdziesz w opcjonalnych plikach `POMOC.md`.
 
 ## Reguły próbnych kolokwiów
 

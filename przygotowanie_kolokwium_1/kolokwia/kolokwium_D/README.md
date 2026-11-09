@@ -23,3 +23,5 @@ Dla pojedynczego zadania: `python sprawdz.py --task 1`. Dla własnego folderu: `
 Zaliczenie: 3 pełne zadania → 3.0, 4 → 4.0, 5 → 5.0, mniej niż 3 → 2.0. Nie ma punktów częściowych w ocenie końcowej.
 
 [Pełna instrukcja sprawdzania](../README.md) · [Plan nauki](../../PLAN_3_DNI.md)
+
+[Opcjonalnie: pełne warunki i wcześniejsze wskazówki](POMOC.md).

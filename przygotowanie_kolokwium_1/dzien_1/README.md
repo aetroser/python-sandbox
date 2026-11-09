@@ -21,3 +21,5 @@ Zadania 01–11: podstawa. Zadania 12–15: rozszerzenia ★, wybierane według 
 | [zad15.py](zad15.py) | Przybliżenie całki prostokątami | 25 min | ★ |
 
 [Plan trzech dni](../PLAN_3_DNI.md) · [Zestaw główny](../README.md)
+
+[Opcjonalnie: pełne warunki i wcześniejsze wskazówki](POMOC.md).
