@@ -2,6 +2,7 @@
 
 Zestaw na podstawie **całego przesłanego `Labs.zip` (Lab02–Lab06)** i podanych zasad kolokwium. Zadania są nowymi wariantami, z doprecyzowanym wejściem, wyjściem i przypadkami brzegowymi. Pliki zawierają polecenia i miejsce na własny kod. **Nie zawierają rozwiązań.**
 
+- [Jak czytać wskazówki: funkcje, metody, formatowanie](JAK_CZYTAC_WSKAZOWKI.md)
 - [Plan na wtorek–czwartek, 10–12 listopada 2026](PLAN_3_DNI.md)
 - [Mapa materiału i źródła](ZAKRES_I_ZRODLA.md)
 - [Krótka lista rzeczy do powtórzenia](POWTORKA.md)
@@ -21,6 +22,10 @@ Zestaw na podstawie **całego przesłanego `Labs.zip` (Lab02–Lab06)** i podany
 | [Kolokwium D — zapas](kolokwia/kolokwium_D/README.md) | pierwsze, trójki bez nakładania, książka, progi, suma pól | 5 |
 
 W każdym dniu zadania **01–11 to podstawa**, **12–15 to rozszerzenia ★ i zapas**. Jest łącznie 33 ćwiczeń podstawowych, 12 rozszerzeń i 20 zadań w arkuszach. Nie musisz kończyć wszystkich rozszerzeń przed piątkiem. Priorytet: samodzielnie rozwiązać i sprawdzić co najmniej trzy pełne zadania w 75 minut.
+
+## Wskazówki w każdym zadaniu
+
+Na górze każdego pliku znajdziesz: informację, czy trzeba pisać własne funkcje `def`; listę przydatnych funkcji, metod i konstrukcji z objaśnieniami; krótkie przykłady składni; warianty alternatywne, w tym rozwiązanie bez własnej funkcji, gdy jest dozwolone. Przykłady pokazują pojedyncze operacje, a cały program nadal piszesz samodzielnie. [Wyjaśnienie od podstaw](JAK_CZYTAC_WSKAZOWKI.md).
 
 ## Jak zacząć
 

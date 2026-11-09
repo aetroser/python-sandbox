@@ -54,6 +54,10 @@ Brak pliku lub choć jeden nieudany przypadek oznacza **0 całych zadań za ten 
 
 Liczby zaliczonych testów służą tylko do szukania błędu. Tester nie zamienia np. połowy testów w połowę zadania. Kody zakończenia sprawdzarki: `0` — wszystkie wybrane zadania przeszły; `1` — co najmniej jedno nie przeszło (również gdy ocena całego arkusza to 3.0 lub 4.0); `2` — błąd argumentów/konfiguracji.
 
+## Wskazówki do nauki
+
+Wszystkie 20 plików z zadaniami ma sekcję narzędzi: składnia, funkcje/metody, małe przykłady i alternatywy. W arkuszach **nie wymaga się własnych funkcji** — można pisać kod bez `def`. Przy pierwszym podejściu możesz korzystać z tych wskazówek jako części nauki; przy próbie odtwarzającej warunki kolokwium pomiń je i przeczytaj samo polecenie. [Jak czytać wskazówki](../JAK_CZYTAC_WSKAZOWKI.md).
+
 ## Tryb uczciwej próby
 
 Przez 75 minut nie czytaj `testy.json`, nie uruchamiaj sprawdzarki i nie poprawiaj programu na podstawie jej wskazówek. Możesz uruchamiać własne programy na przykładach z poleceń i samodzielnie wymyślonych danych. Po upływie czasu przygotuj ZIP w 5 minut; dopiero później uruchom testy. Zapisz wynik przed poprawkami i po poprawkach oddzielnie.

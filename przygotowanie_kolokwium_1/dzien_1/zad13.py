@@ -6,6 +6,32 @@ Poziom: ★ rozszerzenie. Orientacyjny czas: 20 min.
 Środowisko: Python 3.10+; wyłącznie biblioteka standardowa.
 Cel: samodzielne rozwiązanie; poniżej nie ma gotowego algorytmu.
 
+NARZĘDZIA I SKŁADNIA DO TEGO ZADANIA
+
+Własne funkcje (def)
+W tym ćwiczeniu zdefiniuj: experiment(seed,n). Obliczenia da się również zapisać bez def, ale końcowa wersja ma ćwiczyć wskazane funkcje i zwracać wyniki przez return.
+
+Co wykorzystać
+- import random; rng=random.Random(seed): lokalny generator z własnym ziarnem.
+- rng.randint(a,b), rng.randrange(a,b), rng.random(): różne sposoby losowania.
+- rng.choice(lista), rng.choices(lista,k=3), rng.sample(lista,k=3): wybór elementów.
+- lista.copy() lub lista[:]: kopia; rng.shuffle(kopia): tasowanie w miejscu, nie zwraca listy.
+- split('@') lub endswith('@gmail.com'): wybór domeny; append(): budowanie list.
+
+Małe przykłady składni — nie są całym rozwiązaniem
+    import random
+    rng = random.Random(17)
+    sample = ['red', 'green', 'blue']
+    chosen = rng.choice(sample)
+    copy = sample.copy()
+    rng.shuffle(copy)  # nie pisz copy = rng.shuffle(copy)
+
+Inny sposób / wariant bez własnych funkcji
+Do filtrowania adresów wystarczy for i if — list comprehension nie jest obowiązkowe. Losowania można wykonać bez własnej funkcji, ale tu pozostaw experiment, żeby porównać dwa wywołania. Zwykłe funkcje modułu random nie zastępują wymaganego lokalnego generatora.
+
+Poniższe polecenie określa wymagania. Narzędzia opisane jako opcjonalne
+lub alternatywne są do wyboru; nie musisz używać wszystkich naraz.
+
 POLECENIE
 ★ Zdefiniuj experiment(seed,n). Utwórz lokalny generator random.Random(seed). Wylosuj n liczb randint(0,10), następnie jeden adres z listy ["a@gmail.com","b@interia.com","c@gmail.com"] po odfiltrowaniu gmail.com, następnie potasuj kopię tej listy. Zwróć krotkę (liczby,adres,potasowana_lista). Nie zmieniaj pierwotnej listy. Osobno sprawdź randrange(0,10), random(), choices(...,k=3) oraz sample(...,k=3); opisz różnice w komentarzu.
 

@@ -6,6 +6,28 @@ Poziom: podstawa. Orientacyjny czas: 12 min.
 Środowisko: Python 3.10+; wyłącznie biblioteka standardowa.
 Cel: samodzielne rozwiązanie; poniżej nie ma gotowego algorytmu.
 
+NARZĘDZIA I SKŁADNIA DO TEGO ZADANIA
+
+Własne funkcje (def)
+W tym ćwiczeniu zdefiniuj: days_in_february(year). Obliczenia da się również zapisać bez def, ale końcowa wersja ma ćwiczyć wskazane funkcje i zwracać wyniki przez return.
+
+Co wykorzystać
+- import calendar; calendar.isleap(year): True dla roku przestępnego.
+- range(a,b+1): lata z końcową granicą włącznie.
+- % (reszta), ==, and/or: własny warunek podzielności roku.
+- Lista, append() i print(*lista): wypisanie lat; if not lista: BRAK.
+
+Małe przykłady składni — nie są całym rozwiązaniem
+    import calendar
+    print(calendar.isleap(2020))  # True
+    print(2020 % 4)  # 0, czyli rok jest podzielny przez 4
+
+Inny sposób / wariant bez własnych funkcji
+Zgodnie z poleceniem wykonaj najpierw wersję z isleap(), potem wersję bez tej funkcji — zwykłymi warunkami podzielności. Własna days_in_february jest wymagana w końcowej wersji.
+
+Poniższe polecenie określa wymagania. Narzędzia opisane jako opcjonalne
+lub alternatywne są do wyboru; nie musisz używać wszystkich naraz.
+
 POLECENIE
 Wczytaj dwa lata a<=b (1900..2100). Wypisz lata przestępne od a do b albo BRAK; w drugiej linii liczbę dni lutego roku b. Zdefiniuj days_in_february(year). Najpierw wersja z calendar.isleap, potem własny warunek porównany z modułem.
 

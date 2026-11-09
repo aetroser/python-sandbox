@@ -5,6 +5,29 @@ Tematyka: Wczytywanie do zera.
 Sugerowany czas: 10 min. Limit całego arkusza: 75 min + 5 min na ZIP i wgranie.
 Środowisko: Python 3.10+, wyłącznie biblioteka standardowa.
 
+NARZĘDZIA I SKŁADNIA DO TEGO ZADANIA
+
+Własne funkcje (def)
+Nie musisz tworzyć własnej funkcji przez def. Możesz napisać program bezpośrednio w pliku; nadal używasz potrzebnych funkcji wbudowanych, np. input() i print().
+
+Co wykorzystać
+- int(input()), while True, if i break: wczytywanie do wartości kończącej.
+- n>0, n<0, n%2==0 i and: wybieranie kategorii.
+- += 1 aktualizuje licznik, += n aktualizuje sumę.
+- print(a,b,c): trzy wartości oddzielone spacjami.
+
+Małe przykłady składni — nie są całym rozwiązaniem
+    count = 0
+    count += 1
+    print(4 % 2 == 0)  # True
+    print(count, 10, 0)  # 1 10 0
+
+Inny sposób / wariant bez własnych funkcji
+Nie trzeba definiować funkcji ani przechowywać danych w liście. sum() również nie jest potrzebna — sumę aktualizuj przy odczycie. Zero musi zakończyć analizę, zanim zostanie potraktowane jako dana.
+
+Poniższe polecenie określa wymagania. Narzędzia opisane jako opcjonalne
+lub alternatywne są do wyboru; nie musisz używać wszystkich naraz.
+
 POLECENIE
 Wczytuj po jednym int (-1000..1000) w kolejnych liniach aż do pierwszego 0; zero nie jest daną. Jest najwyżej 100 liczb przed zerem i zero zawsze występuje. Wypisz w jednej linii: liczbę dodatnich parzystych, ich sumę, liczbę liczb ujemnych. Dodatnie nieparzyste pomijaj. Liczb ujemnych nie dodawaj do sumy.
 

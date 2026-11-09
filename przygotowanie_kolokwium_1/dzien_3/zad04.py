@@ -6,6 +6,29 @@ Poziom: podstawa. Orientacyjny czas: 12 min.
 Środowisko: Python 3.10+; wyłącznie biblioteka standardowa.
 Cel: samodzielne rozwiązanie; poniżej nie ma gotowego algorytmu.
 
+NARZĘDZIA I SKŁADNIA DO TEGO ZADANIA
+
+Własne funkcje (def)
+W tym ćwiczeniu zdefiniuj: date_distance(start,end). Obliczenia da się również zapisać bez def, ale końcowa wersja ma ćwiczyć wskazane funkcje i zwracać wyniki przez return.
+
+Co wykorzystać
+- from datetime import date; date.fromisoformat(input()): daty wejściowe.
+- end-start daje timedelta; (end-start).days daje podpisaną liczbę dni.
+- abs(liczba) to wartość bezwzględna, // oznacza dzielenie całkowite.
+- return dni,tygodnie zwraca krotkę; print(*wynik) wypisuje dwie liczby.
+
+Małe przykłady składni — nie są całym rozwiązaniem
+    from datetime import date
+    span = date(2020, 1, 10) - date(2020, 1, 1)
+    print(span.days)  # 9
+    print(abs(-9) // 7)  # 1
+
+Inny sposób / wariant bez własnych funkcji
+Zamiast abs() można zmienić znak ujemnej liczby warunkiem if. Odejmowania dat nie trzeba implementować ręcznie. Wariant bez własnej funkcji jest możliwy, lecz końcowa wersja wymaga date_distance.
+
+Poniższe polecenie określa wymagania. Narzędzia opisane jako opcjonalne
+lub alternatywne są do wyboru; nie musisz używać wszystkich naraz.
+
 POLECENIE
 Funkcja date_distance(start,end) zwraca krotkę: podpisana różnica dni end-start oraz liczba pełnych tygodni w bezwzględnej różnicy dni. Wczytaj dwie daty, wypisz dwie liczby. Nie doliczaj dnia początkowego.
 

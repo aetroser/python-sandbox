@@ -1,6 +1,6 @@
 # Co powtórzyć przed próbą
 
-To lista pojęć i pułapek, bez gotowych rozwiązań zadań.
+To lista pojęć i pułapek, bez gotowych rozwiązań zadań. Konkretne narzędzia i małe przykłady są również na górze każdego pliku z zadaniem. [Funkcje, metody i formatowanie od podstaw](JAK_CZYTAC_WSKAZOWKI.md).
 
 ## Lab02 — wejście, pętle, losowanie
 
