@@ -1,0 +1,282 @@
+{
+  "exam": "D",
+  "schema_version": 1,
+  "description": "Jawne testy treningowe; nie są oficjalnymi testami prowadzącego.",
+  "tasks": {
+    "1": [
+      {
+        "name": "przypadek_01",
+        "stdin": "-2 0 1 2 3 4 3 9\n",
+        "stdout": "3 8\n"
+      },
+      {
+        "name": "przypadek_02",
+        "stdin": "\n",
+        "stdout": "0 0\n"
+      },
+      {
+        "name": "przypadek_03",
+        "stdin": "2\n",
+        "stdout": "1 2\n"
+      },
+      {
+        "name": "przypadek_04",
+        "stdin": "0 1 -3\n",
+        "stdout": "0 0\n"
+      },
+      {
+        "name": "przypadek_05",
+        "stdin": "49 121 169\n",
+        "stdout": "0 0\n"
+      },
+      {
+        "name": "przypadek_06",
+        "stdin": "997 1000\n",
+        "stdout": "1 997\n"
+      },
+      {
+        "name": "przypadek_07",
+        "stdin": "2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2\n",
+        "stdout": "100 200\n"
+      },
+      {
+        "name": "przypadek_08",
+        "stdin": "97 89 91\n",
+        "stdout": "2 186\n"
+      },
+      {
+        "name": "przypadek_09",
+        "stdin": "4 6 8 9\n",
+        "stdout": "0 0\n"
+      },
+      {
+        "name": "przypadek_10",
+        "stdin": "1 3 5 7 11\n",
+        "stdout": "4 26\n"
+      }
+    ],
+    "2": [
+      {
+        "name": "przypadek_01",
+        "stdin": "1 9 8 7 6 5 4\n",
+        "stdout": "9 8 7\n6 5 4\n"
+      },
+      {
+        "name": "przypadek_02",
+        "stdin": "5 4 3 2 1\n",
+        "stdout": "5 4 3\n"
+      },
+      {
+        "name": "przypadek_03",
+        "stdin": "\n",
+        "stdout": "BRAK\n"
+      },
+      {
+        "name": "przypadek_04",
+        "stdin": "3 2\n",
+        "stdout": "BRAK\n"
+      },
+      {
+        "name": "przypadek_05",
+        "stdin": "3 2 1\n",
+        "stdout": "3 2 1\n"
+      },
+      {
+        "name": "przypadek_06",
+        "stdin": "9 8 7 6 5 4\n",
+        "stdout": "9 8 7\n6 5 4\n"
+      },
+      {
+        "name": "przypadek_07",
+        "stdin": "3 3 2 1\n",
+        "stdout": "3 2 1\n"
+      },
+      {
+        "name": "przypadek_08",
+        "stdin": "1 2 3\n",
+        "stdout": "BRAK\n"
+      },
+      {
+        "name": "przypadek_09",
+        "stdin": "7 4 3 2 1 0\n",
+        "stdout": "7 4 3\n2 1 0\n"
+      },
+      {
+        "name": "przypadek_10",
+        "stdin": "3 2 1 3 2 1\n",
+        "stdout": "3 2 1\n3 2 1\n"
+      },
+      {
+        "name": "przypadek_11",
+        "stdin": "-1 -2 -3 -4 -5 -6\n",
+        "stdout": "-1 -2 -3\n-4 -5 -6\n"
+      }
+    ],
+    "3": [
+      {
+        "name": "przypadek_01",
+        "stdin": "3\nAla 001\nOla 222\nAla 003\n3\nAla\nOla\nJan\n",
+        "stdout": "003\n222\nBRAK\nWPISY 2\n"
+      },
+      {
+        "name": "przypadek_02",
+        "stdin": "0\n0\n",
+        "stdout": "WPISY 0\n"
+      },
+      {
+        "name": "przypadek_03",
+        "stdin": "0\n2\nAla\nOla\n",
+        "stdout": "BRAK\nBRAK\nWPISY 0\n"
+      },
+      {
+        "name": "przypadek_04",
+        "stdin": "1\nA 000\n2\nA\na\n",
+        "stdout": "000\nBRAK\nWPISY 1\n"
+      },
+      {
+        "name": "przypadek_05",
+        "stdin": "3\nX 1\nX 2\nX 003\n1\nX\n",
+        "stdout": "003\nWPISY 1\n"
+      },
+      {
+        "name": "przypadek_06",
+        "stdin": "2\na 1\nA 2\n2\na\nA\n",
+        "stdout": "1\n2\nWPISY 2\n"
+      },
+      {
+        "name": "przypadek_07",
+        "stdin": "1\nN 0123456789\n0\n",
+        "stdout": "WPISY 1\n"
+      },
+      {
+        "name": "przypadek_08",
+        "stdin": "2\nb 10\na 20\n3\na\nb\na\n",
+        "stdout": "20\n10\n20\nWPISY 2\n"
+      },
+      {
+        "name": "przypadek_09",
+        "stdin": "1\nX 000\n1\nX\n",
+        "stdout": "000\nWPISY 1\n"
+      },
+      {
+        "name": "przypadek_10",
+        "stdin": "0\n1\nBRAK\n",
+        "stdout": "BRAK\nWPISY 0\n"
+      }
+    ],
+    "4": [
+      {
+        "name": "przypadek_01",
+        "stdin": "4\n50 100\n60 100\n80 100\n81 100\n",
+        "stdout": "2\n3\n4\n5\nZALICZONE 3\n"
+      },
+      {
+        "name": "przypadek_02",
+        "stdin": "0\n",
+        "stdout": "ZALICZONE 0\n"
+      },
+      {
+        "name": "przypadek_03",
+        "stdin": "2\n0 100\n100 100\n",
+        "stdout": "2\n5\nZALICZONE 1\n"
+      },
+      {
+        "name": "przypadek_04",
+        "stdin": "3\n51 100\n61 100\n79 100\n",
+        "stdout": "3\n4\n4\nZALICZONE 3\n"
+      },
+      {
+        "name": "przypadek_05",
+        "stdin": "3\n1 2\n3 5\n4 5\n",
+        "stdout": "2\n3\n4\nZALICZONE 2\n"
+      },
+      {
+        "name": "przypadek_06",
+        "stdin": "3\n1 3\n2 3\n3 3\n",
+        "stdout": "2\n4\n5\nZALICZONE 2\n"
+      },
+      {
+        "name": "przypadek_07",
+        "stdin": "7\n499 1000\n500 1000\n501 1000\n600 1000\n601 1000\n800 1000\n801 1000\n",
+        "stdout": "2\n2\n3\n3\n4\n4\n5\nZALICZONE 5\n"
+      },
+      {
+        "name": "przypadek_08",
+        "stdin": "2\n0 1\n1 1\n",
+        "stdout": "2\n5\nZALICZONE 1\n"
+      },
+      {
+        "name": "przypadek_09",
+        "stdin": "2\n2 4\n3 4\n",
+        "stdout": "2\n4\nZALICZONE 1\n"
+      },
+      {
+        "name": "przypadek_10",
+        "stdin": "3\n80 99\n60 99\n50 99\n",
+        "stdout": "5\n4\n3\nZALICZONE 3\n"
+      }
+    ],
+    "5": [
+      {
+        "name": "przypadek_01",
+        "stdin": "0 2 2\n",
+        "stdout": "1.0000\n"
+      },
+      {
+        "name": "przypadek_02",
+        "stdin": "0 1 1\n",
+        "stdout": "0.0000\n"
+      },
+      {
+        "name": "przypadek_03",
+        "stdin": "0 1 2\n",
+        "stdout": "0.1250\n"
+      },
+      {
+        "name": "przypadek_04",
+        "stdin": "-1 1 2\n",
+        "stdout": "1.0000\n"
+      },
+      {
+        "name": "przypadek_05",
+        "stdin": "-2 0 2\n",
+        "stdout": "5.0000\n"
+      },
+      {
+        "name": "przypadek_06",
+        "stdin": "-10 10 1000\n",
+        "stdout": "666.6680\n"
+      },
+      {
+        "name": "przypadek_07",
+        "stdin": "1 2 3\n",
+        "stdout": "1.8519\n"
+      },
+      {
+        "name": "przypadek_08",
+        "stdin": "-3 4 7\n",
+        "stdout": "28.0000\n"
+      },
+      {
+        "name": "przypadek_09",
+        "stdin": "-1 0 1000\n",
+        "stdout": "0.3338\n"
+      },
+      {
+        "name": "przypadek_10",
+        "stdin": "0 10 10\n",
+        "stdout": "285.0000\n"
+      },
+      {
+        "name": "przypadek_11",
+        "stdin": "2 3 100\n",
+        "stdout": "6.3083\n"
+      },
+      {
+        "name": "przypadek_12",
+        "stdin": "0 3 3\n",
+        "stdout": "5.0000\n"
+      }
+    ]
+  }
+}
