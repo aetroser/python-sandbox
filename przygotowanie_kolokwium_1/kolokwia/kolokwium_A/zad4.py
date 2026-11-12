@@ -8,3 +8,23 @@ Przydatne: replace(), lower(), split(), słownik, get() lub if/in, len(), min()/
 """
 
 # Tutaj napisz swoje rozwiązanie.
+some_text = str(input()).lower()
+
+for znak in ",.!?;:":
+    some_text = some_text.replace(znak, " ")
+
+slowa = some_text.split()
+
+if len(slowa) == 0:
+    print("0 / 0 / BRAK")
+else:
+    liczniki = {}
+    for slowo in slowa:
+        liczniki[slowo] = liczniki.get(slowo, 0) + 1
+
+    zwyciezca = None
+    for slowo in sorted(liczniki):
+        if zwyciezca is None or liczniki[slowo] > liczniki[zwyciezca]:
+            zwyciezca = slowo
+
+    print(len(slowa), "/", len(liczniki), "/", zwyciezca, liczniki[zwyciezca])

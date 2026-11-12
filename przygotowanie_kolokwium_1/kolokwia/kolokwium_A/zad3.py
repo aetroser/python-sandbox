@@ -8,3 +8,11 @@ Przydatne: list(map(int,input().split())), len(), range()/while, indeksy, [i:i+3
 """
 
 # Tutaj napisz swoje rozwiązanie.
+int_list = [int(i) for i in input().split()]
+
+groups = []
+for i in range(len(int_list)-2):
+    if int_list[i] > int_list[i+1] > int_list[i+2]:
+        groups.append(" ".join(map(str,int_list[i:i+3])))
+
+print(" / ".join(groups))

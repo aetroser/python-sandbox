@@ -8,3 +8,13 @@ Przydatne: input(), len(), //2, s[0], s[-1], s[:k], s[::2], s[::-1].
 """
 
 # Tutaj napisz swoje rozwiązanie.
+input_text = str(input())
+
+if (len(input_text) < 4):
+    exit("Zbyt krótki tekst")
+
+print(input_text[0])
+print(input_text[-1:])
+print(input_text[:int(len(input_text)/2)])
+print(input_text[::-1])
+print(input_text[::2])

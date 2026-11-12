@@ -8,3 +8,11 @@ Przydatne: append(), [:] lub copy(), print(); == porównuje zawartość, is toż
 """
 
 # Tutaj napisz swoje rozwiązanie.
+a=[2,4,6]
+b=a
+c=a[:]
+c[0]=99
+
+b.append(8)
+
+print(a, "\t", b, "\t", c)

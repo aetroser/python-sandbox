@@ -8,3 +8,18 @@ Przydatne: map(int,input().split()), min()/max() lub if, range(), %2, +=.
 """
 
 # Tutaj napisz swoje rozwiązanie.
+
+start, end = map(int, input().split())
+
+even_count = end // 2 - (start - 1) // 2
+odd_count = (end - start + 1) - even_count
+
+even_sum = 0
+odd_sum = 0
+for i in range(start, end + 1):
+    if i % 2 == 0:
+        even_sum += i
+    else:
+        odd_sum += i
+
+print(even_count, even_sum, "/", odd_count, odd_sum)

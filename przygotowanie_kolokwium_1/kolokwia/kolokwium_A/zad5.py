@@ -8,3 +8,12 @@ Przydatne: from datetime import date; fromisoformat(), .year/.month/.day, porów
 """
 
 # Tutaj napisz swoje rozwiązanie.
+
+from datetime import date
+
+data_urodzenia, data_odniesienia = map(date.fromisoformat, input().split())
+
+wiek = data_odniesienia.year - data_urodzenia.year - ((data_odniesienia.month, data_odniesienia.day) < (data_urodzenia.month, data_urodzenia.day))
+roznica_dni = (data_odniesienia - data_urodzenia).days
+
+print(wiek, roznica_dni)
